@@ -13,6 +13,7 @@ function App()
       if(!prev.includes(newPlace))
       {
         return [...prev,newPlace]
+    
       }
       return prev;
     });

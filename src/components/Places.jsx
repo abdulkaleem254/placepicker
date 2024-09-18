@@ -7,7 +7,7 @@ export default function Places({title, places, fallBackText, handlePlace, handle
         <>
         <div className="selected-box">
             <h2>{title}</h2>
-            <p>{places.length<0?"":fallBackText}</p>
+            <p>{fallBackText}</p>
             {places.length>0 && 
             <div className="places-list">
                 <ul className="">

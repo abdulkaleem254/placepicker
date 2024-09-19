@@ -173,3 +173,32 @@ button p{
     padding: 0px;
   }
 } 
+dialog{
+  background-color: rgb(181, 142, 71);
+  width: 40%;
+  margin: 0 auto;
+  padding: 1.5% 2%;
+  border-radius: 10px;
+}
+.modal p{
+  color: black;
+  font-weight: 500;
+}
+.btns{
+  display: flex;
+  justify-content: end;
+}
+.btns button{
+  margin: 0 5px;
+  border: 1px solid black;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 5%;
+}
+.btns button:last-child{
+  background-color: red;
+  color: white;
+  border: none;
+}

@@ -172,6 +172,10 @@ button p{
   body{
     padding: 0px;
   }
+  dialog{
+    width: 70%;
+    margin: 60% auto;
+  }
 } 
 dialog{
   background-color: rgb(181, 142, 71);
